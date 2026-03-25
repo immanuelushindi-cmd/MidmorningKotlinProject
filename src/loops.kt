@@ -8,24 +8,19 @@ fun main() {
     }
 
     //For Loop
-    for (x in 30 .. 40){
-        println("Number : $x")
+    for (num in 10..15){
+        println("Number is $num")
     }
 
-    for (letter in 'a'..'f'){
-        println("My letter is $letter")
+    for (letter in 'a'..'d'){
+        println("Letter is $letter")
     }
 
-
-    //Arrays
-    var cars =arrayOf("Volvo", "Mercedes", "Toyota")
-
+    var cars = arrayOf("Toyota", "Mercedes","Volvo")
     for (car in cars){
         println(car)
-
     }
-
-
 }
 
+//Break and continue statement
 
